@@ -1,0 +1,35 @@
+.user-modal .ant-modal-body {
+  padding: 10px;
+  background: #fdfdfd;
+  border-radius: 0 0 14px 14px;
+}
+
+/* Labels */
+.user-modal .ant-form-item-label > label {
+  font-weight: 600;
+  color: #444;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+/* Inputs & Selects */
+.user-modal .ant-input,
+.user-modal .ant-select-selector {
+  border-radius: 8px !important;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+  border: 1px solid #d9d9d9;
+}
+
+/* Focus effects */
+.user-modal .ant-input:focus,
+.user-modal .ant-select-selector:focus-within {
+  border-color: #1890ff !important;
+  box-shadow: 0 0 6px rgba(24, 144, 255, 0.25);
+}
+
+/* Smooth hover */
+.user-modal .ant-input:hover,
+.user-modal .ant-select-selector:hover {
+  border-color: #40a9ff;
+}
